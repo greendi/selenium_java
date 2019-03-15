@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/Selenium.Automation.iml" filepath="$PROJECT_DIR$/common/Selenium.Automation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/selenium.automation.psmg/Selenium.Automation.PSMG.iml" filepath="$PROJECT_DIR$/selenium.automation.psmg/Selenium.Automation.PSMG.iml" />
+    </modules>
+  </component>
+</project>
