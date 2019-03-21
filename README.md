@@ -25,4 +25,4 @@
     -Dwebdriver.ie.driver="C:\\some_path\\IEDriverServer.exe"
     6.3 Try to run again ==> should pass
     
-##More detailed info ==> in TestAutomationFramework.docx
+## More detailed info ==> in TestAutomationFramework.docx
