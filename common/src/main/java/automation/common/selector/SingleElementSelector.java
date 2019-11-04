@@ -128,6 +128,13 @@ public class SingleElementSelector {
 		actions.build().perform();
 	}
 
+	public void hover() {
+		this.getWait().isClickable(null);
+		Actions actions = new Actions(Driver.browser);
+		actions.moveToElement(this.webElement);
+		actions.build().perform();
+	}
+
 	/**
 	 * Sends the specified text as a set of characters to input.
 	 * 

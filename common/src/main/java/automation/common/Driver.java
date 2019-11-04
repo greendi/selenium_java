@@ -75,6 +75,7 @@ public final class Driver {
 	}
 
 	public static void stopBrowser() throws Exception {
+		Thread.sleep(2000);
 		browser.quit();
 		isBrowserOpen = false;
 	}

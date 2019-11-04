@@ -21,7 +21,7 @@ public class TestBase {
 	@After
 	public void thisIsAfter(Scenario scenario) throws Exception {
 		if (Driver.isBrowserOpen() == true) {
-			if (scenario.isFailed())		
+			if (scenario.isFailed())
 				Report.createErrorReport(Driver.browser);
 			Driver.stopBrowser();
 		}

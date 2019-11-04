@@ -7,9 +7,22 @@ public class RegisterPage {
 	private RegisterSelectors selectors;
 	private RegisterValidators validators;
 
-	public void createAccount(String email) {
+	public void addAccount(String email) {
 		selectors.email().sendKeys(email);
 		selectors.submit().click();
+	}
+
+	public void createAccount () throws InterruptedException {
+		selectors.firstName().sendKeys("Diana");
+		selectors.lastName().sendKeys("Te");
+		selectors.passRegister().sendKeys("password1");
+		selectors.address().sendKeys("Street 11");
+		selectors.city().sendKeys("Washington");
+		selectors.zip().sendKeys("12345");
+		selectors.state().getWait().isClickable(null);
+		selectors.state().sendKeysFocus("Alabama");
+		selectors.mobilePhone().sendKeys("555-123524");
+		selectors.registerBtn().click();
 	}
 
 	public RegisterPage() {

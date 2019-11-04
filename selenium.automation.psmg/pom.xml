@@ -6,7 +6,7 @@
 	<groupId>selenium.automation.psmg</groupId>
 	<artifactId>selenium.automation.psmg</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+    <packaging>pom</packaging>
 
 	<name>selenium.automation.psmg</name>
 	<url>http://maven.apache.org</url>

@@ -28,8 +28,8 @@ public class RestAPISteps {
 		responseGet.getBody().prettyPrint();
 	}
 
-	@Then("^the user validates data from a Rest API request$")
-	public void the_user_validates_data_from_a_Rest_API_request() throws Throwable {
+	@Then("^the user validates data from a Rest API requests$")
+	public void the_user_validates_data_from_a_Rest_API_requests() throws Throwable {
 
 		// Validate POST response
 		Assert.assertTrue("Status Code incorrect",
@@ -56,4 +56,5 @@ public class RestAPISteps {
 		Assert.assertTrue("POST Request Body 'firstName' field incorrect", RestAPI.checkResponseValue(
 				(Response) ScenarioContext.getInstance().getValue(Context.RESPONSEPOST), "firstName", "John"));
 	}
+
 }
